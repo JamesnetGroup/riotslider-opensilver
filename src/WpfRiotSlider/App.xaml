@@ -1,0 +1,11 @@
+﻿<Application x:Class="WpfRiotSlider.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ctrls="clr-namespace:WpfRiotSlider"
+             xmlns:cnvts="clr-namespace:WpfRiotSlider"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+
+    </Application.Resources>
+</Application>

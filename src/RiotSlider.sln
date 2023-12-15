@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfRiotSlider", "WpfRiotSlider\WpfRiotSlider.csproj", "{FD55502E-BCFB-4284-9A3D-3DB4E3602643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilverRiotSlider.Browser", "OpenSilverRiotSlider\OpenSilverRiotSlider.Browser\OpenSilverRiotSlider.Browser.csproj", "{40F66F19-E75C-4387-9840-4B6418B05AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilverRiotSlider", "OpenSilverRiotSlider\OpenSilverRiotSlider\OpenSilverRiotSlider.csproj", "{BA4F3E49-94B1-400A-8821-A8D427D5C779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilverRiotSlider.Simulator", "OpenSilverRiotSlider\OpenSilverRiotSlider.Simulator\OpenSilverRiotSlider.Simulator.csproj", "{D80C6B39-D0A0-45AC-8483-550F31653F24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenSilver", "OpenSilver", "{8CE8B776-6988-4340-A39C-C6542F22A1DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{E490F7B1-EAC5-4B9C-BF9A-7A23B90A3BA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD55502E-BCFB-4284-9A3D-3DB4E3602643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD55502E-BCFB-4284-9A3D-3DB4E3602643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD55502E-BCFB-4284-9A3D-3DB4E3602643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD55502E-BCFB-4284-9A3D-3DB4E3602643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F66F19-E75C-4387-9840-4B6418B05AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F66F19-E75C-4387-9840-4B6418B05AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F66F19-E75C-4387-9840-4B6418B05AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F66F19-E75C-4387-9840-4B6418B05AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4F3E49-94B1-400A-8821-A8D427D5C779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4F3E49-94B1-400A-8821-A8D427D5C779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4F3E49-94B1-400A-8821-A8D427D5C779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4F3E49-94B1-400A-8821-A8D427D5C779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80C6B39-D0A0-45AC-8483-550F31653F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80C6B39-D0A0-45AC-8483-550F31653F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80C6B39-D0A0-45AC-8483-550F31653F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80C6B39-D0A0-45AC-8483-550F31653F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD55502E-BCFB-4284-9A3D-3DB4E3602643} = {E490F7B1-EAC5-4B9C-BF9A-7A23B90A3BA9}
+		{40F66F19-E75C-4387-9840-4B6418B05AAD} = {8CE8B776-6988-4340-A39C-C6542F22A1DE}
+		{BA4F3E49-94B1-400A-8821-A8D427D5C779} = {8CE8B776-6988-4340-A39C-C6542F22A1DE}
+		{D80C6B39-D0A0-45AC-8483-550F31653F24} = {8CE8B776-6988-4340-A39C-C6542F22A1DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AB09383-5770-4CEE-8E83-B4A634F5BF71}
+	EndGlobalSection
+EndGlobal
