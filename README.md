@@ -37,6 +37,9 @@ RiotSlider is a slider control inspired by the League of Legends game, adapted f
 
 - Starting project for WPF version: `WpfRiotSlider`
 - Starting project for OpenSilver version: `OpenSilverRiotSlider.Browser`
+- OpenSilver Simulator Project: OpenSilverRiotSlider.Simulator
+
+> Unlike the OpenSilverRiotSlider.Browser project, which runs as a WebAssembly-converted application, the Simulator runs the application in a structure similar to its original XAML form. This allows for debugging in an environment akin to WPF. It serves as a simulator enabling easier debugging and testing of the OpenSilver application, greatly aiding developers in their workflow.
 
 ## Project Structure
 
@@ -54,7 +57,24 @@ The images below illustrate the RiotSlider, inherited from the Slider control, a
 
 ![RiotSlider WPF Version](https://github.com/jamesnet214/riotslider/assets/52397976/6fbd58bc-7f6d-4372-9039-be0312a68103)
 
+![image](https://github.com/jamesnet214/riotslider/assets/52397976/48cb0be7-af23-44f1-bdce-b98e76bab79f)
+
 ![RiotSlider OpenSilver Version](https://github.com/jamesnet214/riotslider/assets/52397976/95fb9707-305a-457c-8d0c-a5034bbda9be)
+
+![image](https://github.com/jamesnet214/riotslider/assets/52397976/90d2da84-15bd-416f-856d-a9388bbc5a2c)
+
+
+## Roadmap
+
+### Future Plans and Expansions
+
+Alongside our ongoing efforts with WPF and OpenSilver versions, we are excited to announce plans to extend the RiotSlider to additional platforms. Our roadmap includes:
+
+- [ ] **Avalonia UI Implementation:** We are looking forward to adapting RiotSlider for Avalonia UI, a cross-platform framework that will enable RiotSlider to function seamlessly across different operating systems.
+- [ ] **Uno Platform Version:** Plans are also in place to develop a version for the Uno Platform, which will allow RiotSlider to be utilized in a wide range of environments, including mobile and web applications.
+
+These expansions will ensure that RiotSlider remains versatile and accessible across various development platforms, making it an even more valuable tool for developers worldwide.
+
 
 ## License
 ### Embracing Openness and Collaboration with the MIT License
