@@ -81,4 +81,4 @@ These expansions will ensure that RiotSlider remains versatile and accessible ac
 
 This project is open-sourced under the MIT License. This means anyone can freely use, copy, modify, merge, publish, distribute, grant sublicenses, and/or sell the software, and it requires that users comply with these terms when receiving the software.
 
-For more details, refer to the [LICENSE file](LICENSE file link).
+For more details, refer to the [LICENSE file](https://github.com/jamesnet214/riotslider/blob/main/LICENSE).
