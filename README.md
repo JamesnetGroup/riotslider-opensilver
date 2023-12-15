@@ -30,7 +30,7 @@ RiotSlider is a slider control inspired by the League of Legends game, adapted f
 
 - **.NET Version:** 
   - WPF version requires .NET 8.0 or higher.
-  - OpenSilver version requires .NET 7.0 or higher.
+  - [OpenSilver](https://opensilver.net/) version requires .NET 7.0 or higher.
 - **Development Environment:** Visual Studio 2022
 
 #### Starting Projects
