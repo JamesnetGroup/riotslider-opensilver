@@ -1,7 +1,3 @@
-Here's the translated version of your `Readme.md` content in English:
-
----
-
 # RiotSlider
 ### Implementing a Slider Control as a CustomControl in WPF and OpenSilver
 
