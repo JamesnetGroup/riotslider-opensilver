@@ -7,7 +7,7 @@
         Background="#010a13"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
+    <Grid>
         <local:RiotSlider Width="200" Height="50"/>
-    </StackPanel>
+    </Grid>
 </Window>
