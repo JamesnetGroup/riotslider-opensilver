@@ -5,7 +5,7 @@ WPF (Windows Presentation Foundation) was the first platform to introduce XAML (
 
 WPF provides a rich user interface and advanced graphics capabilities, with XAML enabling an effective separation of user interface and logic. Similarly, the Silverlight platform shares a development approach with WPF, but primarily focuses on web-based applications.
 
-Recently, OpenSilver has evolved to version 2.0, further stabilizing and offering a near-identical implementation to WPF and Silverlight, while enabling website development based on WebAssembly. This opens new possibilities for applying WPF and Silverlight development techniques in web environments.
+Recently, [OpenSilver](https://opensilver.net/) has evolved to version 2.0, further stabilizing and offering a near-identical implementation to WPF and Silverlight, while enabling website development based on WebAssembly. This opens new possibilities for applying WPF and Silverlight development techniques in web environments.
 
 Cross-platform development tools like Avalonia UI and Uno Platform are also continuously evolving. These platforms enable robust application development across various environments, offering developers a wide range of choices.
 
