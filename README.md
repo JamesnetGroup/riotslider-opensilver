@@ -48,7 +48,9 @@ The repository is organized as follows:
 Each solution folder contains project files and source code suitable for the respective environment.
 
 ## Screenshots
-### Highlighting the Visual Aspects of the Project
+### Showcasing the RiotSlider in Action on Each Platform
+
+The images below illustrate the RiotSlider, inherited from the Slider control, as it appears when executed on each respective platform. These visuals demonstrate the implementation and appearance of the RiotSlider in both the WPF and OpenSilver environments, highlighting the successful adaptation of the control across different technologies.
 
 ![RiotSlider WPF Version](https://github.com/jamesnet214/riotslider/assets/52397976/6fbd58bc-7f6d-4372-9039-be0312a68103)
 
