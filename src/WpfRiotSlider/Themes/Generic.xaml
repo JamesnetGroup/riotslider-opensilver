@@ -91,7 +91,7 @@
         <Setter Property="Margin" Value="0,20,0,0" />
         <Setter Property="HorizontalAlignment" Value="Center" />
         <Setter Property="IsMoveToPointEnabled" Value="True"/>
-        <Setter Property="AutoToolTipPlacement" Value="None"/>
+        <Setter Property="AutoToolTipPlacement" Value="TopLeft"/>
         <Setter Property="IsSnapToTickEnabled" Value="True"/>
         <Setter Property="TickFrequency" Value="0.01"/>
         <Setter Property="SmallChange" Value="0.01"/>
