@@ -1,84 +1,95 @@
-# RiotSlider
-### Implementing a Slider Control as a CustomControl in WPF and OpenSilver
+# OpenSilver RiotSlider [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![한국어](https://img.shields.io/badge/Language-한국어-red.svg)](README.ko.md)
 
-WPF (Windows Presentation Foundation) was the first platform to introduce XAML (eXtensible Application Markup Language). It is recognized as one of the most powerful methods for application development on the Windows operating system to this day and has significantly contributed to the evolution of XAML-based platforms.
+A cross-platform implementation of the League of Legends-inspired slider using OpenSilver
 
-WPF provides a rich user interface and advanced graphics capabilities, with XAML enabling an effective separation of user interface and logic. Similarly, the Silverlight platform shares a development approach with WPF, but primarily focuses on web-based applications.
-
-Recently, [OpenSilver](https://opensilver.net/) has evolved to version 2.0, further stabilizing and offering a near-identical implementation to WPF and Silverlight, while enabling website development based on WebAssembly. This opens new possibilities for applying WPF and Silverlight development techniques in web environments.
-
-Cross-platform development tools like Avalonia UI and Uno Platform are also continuously evolving. These platforms enable robust application development across various environments, offering developers a wide range of choices.
-
-All these developments are examples of how XAML-based platforms have evolved and expanded over time, supporting developers in creating effective and efficient applications in diverse environments.
-
-## Introduction
-### League of Legends Style Slider: Implemented in WPF and OpenSilver with the Same XAML, Different Approaches
-
-RiotSlider is a slider control inspired by the League of Legends game, adapted for the WPF and OpenSilver environments. This project uses the same XAML in both WPF and OpenSilver while adopting unique implementation methods suitable for each environment. It provides an opportunity to explore and understand the similarities and differences in control implementation techniques across these two technology stacks.
-
-## Features
-### Custom Implementation of Slider Inheritance in WPF and OpenSilver
-
-- **Support for WPF and OpenSilver:** Provides the RiotSlider control usable in both WPF and OpenSilver environments.
-- **Custom Control Approach:** Extends the basic Slider functionality to implement a user interface and interactions styled after League of Legends.
-- **Consistent Experience, Diverse Technologies:** Offers a consistent user experience in both environments while highlighting their technical differences.
-
-## Installation and Usage
-### What to Know Before Getting Started
-
-#### Requirements
-
-- **.NET Version:** 
-  - WPF version requires .NET 8.0 or higher.
-  - [OpenSilver](https://opensilver.net/) version requires .NET 7.0 or higher.
-- **Development Environment:** [Visual Studio 2022](https://visualstudio.microsoft.com/)
-
-#### Starting Projects
-
-- Starting project for WPF version: `WpfRiotSlider`
-- Starting project for OpenSilver version: `OpenSilverRiotSlider.Browser`
-- OpenSilver Simulator Project: `OpenSilverRiotSlider.Simulator`
-
-> Unlike the OpenSilverRiotSlider.Browser project, which runs as a WebAssembly-converted application, the Simulator runs the application in a structure similar to its original XAML form. This allows for debugging in an environment akin to WPF. It serves as a simulator enabling easier debugging and testing of the OpenSilver application, greatly aiding developers in their workflow.
-
-## Project Structure
-
-The repository is organized as follows:
-
-- **WPF (Solution Folder):** The RiotSlider project based on WPF.
-- **OpenSilver (Solution Folder):** The RiotSlider project based on OpenSilver.
-
-Each solution folder contains project files and source code suitable for the respective environment.
-
-## Screenshots
-### Showcasing the RiotSlider in Action on Each Platform
-
-The images below illustrate the RiotSlider, inherited from the Slider control, as it appears when executed on each respective platform. These visuals demonstrate the implementation and appearance of the RiotSlider in both the WPF and OpenSilver environments, highlighting the successful adaptation of the control across different technologies.
-
-![RiotSlider WPF Version](https://github.com/jamesnet214/riotslider/assets/52397976/6fbd58bc-7f6d-4372-9039-be0312a68103)
-
-![image](https://github.com/jamesnet214/riotslider/assets/52397976/48cb0be7-af23-44f1-bdce-b98e76bab79f)
-
-![RiotSlider OpenSilver Version](https://github.com/jamesnet214/riotslider/assets/52397976/95fb9707-305a-457c-8d0c-a5034bbda9be)
-
-![image](https://github.com/jamesnet214/riotslider/assets/52397976/90d2da84-15bd-416f-856d-a9388bbc5a2c)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![.NET](https://img.shields.io/badge/.NET-7.0+-blue.svg)](https://dotnet.microsoft.com/download)
+[![OpenSilver](https://img.shields.io/badge/OpenSilver-2.0-brightgreen.svg)](https://opensilver.net/)
+[![Stars](https://img.shields.io/github/stars/jamesnet214/riotslider-opensilver.svg)](https://github.com/jamesnet214/riotslider-opensilver/stargazers)
+[![Issues](https://img.shields.io/github/issues/jamesnet214/riotslider-opensilver.svg)](https://github.com/jamesnet214/riotslider-opensilver/issues)
 
 
-## Roadmap
 
-### Future Plans and Expansions
 
-Alongside our ongoing efforts with WPF and OpenSilver versions, we are excited to announce plans to extend the RiotSlider to additional platforms. Our roadmap includes:
+## Project Overview
 
-- [ ] **Avalonia UI Implementation:** We are looking forward to adapting RiotSlider for Avalonia UI, a cross-platform framework that will enable RiotSlider to function seamlessly across different operating systems.
-- [ ] **Uno Platform Version:** Plans are also in place to develop a version for the Uno Platform, which will allow RiotSlider to be utilized in a wide range of environments, including mobile and web applications.
+OpenSilver RiotSlider is a cross-platform implementation of a custom slider control inspired by League of Legends, built using OpenSilver. This project demonstrates how WPF developers can leverage their existing XAML and C# skills to create web applications using WebAssembly technology.
 
-These expansions will ensure that RiotSlider remains versatile and accessible across various development platforms, making it an even more valuable tool for developers worldwide.
+<img src="https://github.com/user-attachments/assets/7d4d9dd5-5858-4a25-a7fc-b449fdb34eb5" width="49%"/>
+<img src="https://github.com/user-attachments/assets/84f8f5d5-f220-4408-bfc6-aa29af6ae1f9" width="49%"/>
 
+## Key Features and Implementations
+#### 1. Cross-Platform Development
+- [x] Utilization of OpenSilver for WebAssembly-based web applications
+- [x] Seamless transition for WPF developers to web development
+- [x] Consistent XAML-based development experience
+
+#### 2. Custom Control Development
+- [x] Implementation of RiotSlider as a CustomControl
+- [x] Use of ControlTemplate for flexible and customizable design
+- [x] Demonstration of advanced XAML techniques in a web context
+
+#### 3. WPF-Inspired Architecture
+- [x] Leveraging WPF design patterns in web development
+- [x] Showcasing the power of MVVM in OpenSilver
+- [x] Utilizing DependencyProperties for robust property system
+
+#### 4. Web-Optimized Performance
+- [x] Efficient rendering tailored for web environments
+- [x] Optimized for WebAssembly execution
+
+#### 5. Development Workflow
+- [x] Use of OpenSilver Simulator for easier debugging and testing
+- [x] Seamless integration with existing .NET development tools
+
+## Technology Stack
+- OpenSilver 2.0+
+- .NET 7.0+
+- C# 10.0
+- XAML
+
+## Getting Started
+### Prerequisites
+- Visual Studio 2022 or later
+- .NET 7.0 SDK or later
+- OpenSilver extension for Visual Studio
+
+### Installation and Execution
+#### 1. Clone the repository:
+
+```
+git clone https://github.com/jamesnet214/riotslider-opensilver.git
+```
+
+#### 2. Open the solution
+- [x] Visual Studio
+
+<img src="https://github.com/user-attachments/assets/af70f422-7057-4e77-a54d-042ee8358d2a" width="32%"/>
+<img src="https://github.com/user-attachments/assets/f2e8c10f-1690-47a3-b748-cbe54e0d9d72" width="32%"/>
+<img src="https://github.com/user-attachments/assets/227f7522-d30e-4ac7-a3e5-ef264b04fb29" width="32%"/>
+
+
+#### 3. Set up and Run
+- [x] Set OpenSilverRiotSlider.Browser as the startup project
+- [x] Build and run the project
+- [x] For debugging, use OpenSilverRiotSlider.Simulator
+
+## Learning Opportunities
+This project offers valuable insights for WPF developers transitioning to web development:
+1. **XAML in Web Development**: Learn how to use familiar XAML in a web context
+2. **CustomControl in OpenSilver**: Understand the nuances of creating custom controls for web
+3. **WebAssembly Integration**: Explore how .NET applications can run in browsers via WebAssembly
+4. **Cross-Platform UI Design**: Master techniques for creating consistent UIs across platforms
+5. **Performance Optimization**: Learn to optimize XAML-based controls for web environments
+
+## Contributing
+Contributions to OpenSilver RiotSlider are welcome! Feel free to submit issues, create pull requests, or suggest improvements.
 
 ## License
-### Embracing Openness and Collaboration with the MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This project is open-sourced under the MIT License. This means anyone can freely use, copy, modify, merge, publish, distribute, grant sublicenses, and/or sell the software, and it requires that users comply with these terms when receiving the software.
+## Contact
+- Website: https://jamesnet.dev
+- Email: james@jamesnet.dev, vickyqu115@hotmail.com
 
-For more details, refer to the [LICENSE file](https://github.com/jamesnet214/riotslider/blob/main/LICENSE).
+Explore the possibilities of cross-platform development with OpenSilver RiotSlider!
