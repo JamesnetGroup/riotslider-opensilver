@@ -54,6 +54,10 @@ OpenSilver RiotSlider is a cross-platform implementation of a custom slider cont
 - .NET 7.0 SDK or later
 - OpenSilver extension for Visual Studio
 
+<img src="https://github.com/user-attachments/assets/af70f422-7057-4e77-a54d-042ee8358d2a" width="32%"/>
+<img src="https://github.com/user-attachments/assets/f2e8c10f-1690-47a3-b748-cbe54e0d9d72" width="32%"/>
+<img src="https://github.com/user-attachments/assets/227f7522-d30e-4ac7-a3e5-ef264b04fb29" width="32%"/>
+
 ### Installation and Execution
 #### 1. Clone the repository:
 
@@ -63,11 +67,6 @@ git clone https://github.com/jamesnet214/riotslider-opensilver.git
 
 #### 2. Open the solution
 - [x] Visual Studio
-
-<img src="https://github.com/user-attachments/assets/af70f422-7057-4e77-a54d-042ee8358d2a" width="32%"/>
-<img src="https://github.com/user-attachments/assets/f2e8c10f-1690-47a3-b748-cbe54e0d9d72" width="32%"/>
-<img src="https://github.com/user-attachments/assets/227f7522-d30e-4ac7-a3e5-ef264b04fb29" width="32%"/>
-
 
 #### 3. Set up and Run
 - [x] Set OpenSilverRiotSlider.Browser as the startup project
