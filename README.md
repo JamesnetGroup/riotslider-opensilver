@@ -1,4 +1,4 @@
-# OpenSilver RiotSlider [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![한국어](https://img.shields.io/badge/Language-한국어-red.svg)](README.ko.md)
+# OpenSilver RiotSlider [![英文](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![中文](https://img.shields.io/badge/Language-中文-red.svg)](README.zh-CN.md) [![韩文](https://img.shields.io/badge/Language-한국어-green.svg)](README.ko.md)
 
 A cross-platform implementation of the League of Legends-inspired slider using OpenSilver
 
@@ -7,8 +7,6 @@ A cross-platform implementation of the League of Legends-inspired slider using O
 [![OpenSilver](https://img.shields.io/badge/OpenSilver-2.0-brightgreen.svg)](https://opensilver.net/)
 [![Stars](https://img.shields.io/github/stars/jamesnet214/riotslider-opensilver.svg)](https://github.com/jamesnet214/riotslider-opensilver/stargazers)
 [![Issues](https://img.shields.io/github/issues/jamesnet214/riotslider-opensilver.svg)](https://github.com/jamesnet214/riotslider-opensilver/issues)
-
-
 
 
 ## Project Overview
