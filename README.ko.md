@@ -1,4 +1,5 @@
-# OpenSilver RiotSlider [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![한국어](https://img.shields.io/badge/Language-한국어-red.svg)](README.ko.md)
+# OpenSilver RiotSlider [![英文](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![中文](https://img.shields.io/badge/Language-中文-red.svg)](README.zh-CN.md) [![韩文](https://img.shields.io/badge/Language-한국어-green.svg)](README.ko.md)
+
 
 리그 오브 레전드에서 영감을 받은 슬라이더의 OpenSilver를 이용한 크로스 플랫폼 구현
 
